@@ -1,0 +1,28 @@
+{
+    "employee": [
+        {
+            "Id": "1",
+            "FirstName": "Chendrayan",
+            "SurName": "Venkatesan",
+            "Country": "India",
+            "City": "Bangalore",
+            "DateOfJoining": "June 16, 2008"
+        },
+        {
+            "Id": "2",
+            "FirstName": "Shahsi",
+            "SurName": "Shetty",
+            "Country": "India",
+            "City": "Bangalore",
+            "DateOfJoining": "January 01, 2010"
+        },
+        {
+            "Id": "3",
+            "FirstName": "Matt",
+            "SurName": "Hans",
+            "Country": "Nederlands",
+            "City": "Amsterdam",
+            "DateOfJoining": "March 03, 2005"
+        }
+    ]
+ }
