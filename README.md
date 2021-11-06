@@ -46,3 +46,4 @@ C:\Projects\AKS-Learning> kubectl apply -f .\Kubernetes\manifests\Create-Service
 
 1. chenv/ps-employee-rest-api:v1.0.0
 2. chenv/nodejs-app:v1.0.0
+3. chenv/nginx-app:v1.0.0
