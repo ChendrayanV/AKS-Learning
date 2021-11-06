@@ -22,6 +22,27 @@ PS C:\Projects\AKS-Learning\Docker\PowerShell\RESTAPI-EMPLOYEE> docker build -t 
 PS C:\Projects\AKS-Learning\Docker\PowerShell\RESTAPI-EMPLOYEE> docker push chenv/nodejs-app:v1.0.0
 ```
 
+### Create Pod
+
+```PowerShell
+C:\Projects\AKS-Learning> kubectl apply -f .\Kubernetes\manifests\Create-Pod.yaml
+```
+
+### Create Deployment
+
+```PowerShell
+C:\Projects\AKS-Learning> kubectl apply -f .\Kubernetes\manifests\Create-Deployment.yaml
+```
+
+### Create Service
+
+```PowerShell
+C:\Projects\AKS-Learning> kubectl apply -f .\Kubernetes\manifests\Create-Service.yaml
+```
+
 ### Docker Images
 
+> [My Docker Hub](https://hub.docker.com/u/chenv)
+
 1. chenv/ps-employee-rest-api:v1.0.0
+2. chenv/nodejs-app:v1.0.0
