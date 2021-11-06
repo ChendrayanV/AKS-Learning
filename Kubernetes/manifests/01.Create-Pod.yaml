@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myapp
+  name: webfrontend
   labels:
-    name: myapp
+    name: webfrontend
 spec:
   containers:
-  - name: myapp
+  - name: webfrontend
     image: chenv/ps-employee-rest-api:v1.0.0
     resources:
       limits:
